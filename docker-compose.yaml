@@ -7,7 +7,7 @@ services:
     volumes:
       - ./site:/var/www/html
     ports:
-      - "880:80"
+      - "80:80"
     depends_on:
       - mariadb
   mariadb:
